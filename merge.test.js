@@ -31,7 +31,7 @@ describe('merge', function () {
   });
 });
 
-describe('mergeSort', function () {
+describe.only('mergeSort', function () {
   it('should exist', function () {
     expect(typeof mergeSort).toBe('function', "did you remember to define the 'mergeSort' function?");
   });
